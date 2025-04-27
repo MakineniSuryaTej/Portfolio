@@ -1,13 +1,10 @@
-import "./App.css";
+import { Button } from "@/components/ui/button";
 
 function App() {
   return (
-    <>
-      <div>
-        <h1>Test 1</h1>
-        <h2>Test 2</h2>
-      </div>
-    </>
+    <div className="flex flex-col items-center justify-center min-h-svh">
+      <Button>Click me</Button>
+    </div>
   );
 }
 
