@@ -6,6 +6,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
+import ContactSection from "@/components/ContactSection";
 
 export default function Index() {
   useEffect(() => {
@@ -32,6 +33,7 @@ export default function Index() {
       <ProjectsSection />
       <SkillsSection />
       <EducationSection />
+      <ContactSection />
     </div>
   );
 }
