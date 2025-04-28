@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import ExperienceSection from "@/components/ExperienceSection";
 
 export default function Index() {
   useEffect(() => {
@@ -24,6 +25,7 @@ export default function Index() {
       <NavBar />
       <HeroSection />
       <AboutSection />
+      <ExperienceSection />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const AboutSection = () => {
+function AboutSection() {
   useEffect(() => {
     const observerOptions = {
       threshold: 0.1,
@@ -114,6 +114,6 @@ const AboutSection = () => {
       </div>
     </section>
   );
-};
+}
 
 export default AboutSection;
