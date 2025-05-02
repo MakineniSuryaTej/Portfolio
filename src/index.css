@@ -371,3 +371,16 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 30px -5px rgba(139, 92, 246, 0.3);
 }
+/* Only apply custom cursor on non-mobile devices */
+@media (min-width: 769px) {
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Explicit reset for mobile devices */
+@media (max-width: 768px) {
+  * {
+    cursor: auto !important;
+  }
+}

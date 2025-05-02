@@ -8,6 +8,7 @@ import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import CustomPointer from "@/components/CustomPointer";
 
 export default function Index() {
   useEffect(() => {
@@ -27,6 +28,7 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-space-dark-blue">
+      <CustomPointer />
       <NavBar />
       <HeroSection />
       <AboutSection />
