@@ -81,7 +81,7 @@ function NavBar() {
 
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/MakineniSuryaTej/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-space-purple transition-colors"
@@ -104,7 +104,9 @@ function NavBar() {
           </a>
           <Button
             className="btn-primary"
-            onClick={() => window.open("/resume.pdf", "_blank")}
+            onClick={() =>
+              window.open("/Surya Tej Makineni - AI ML Engineer.pdf", "_blank")
+            }
           >
             Resume
           </Button>
@@ -212,7 +214,7 @@ function NavBar() {
 
           <div className="flex gap-6 mt-8">
             <a
-              href="https://github.com"
+              href="https://github.com/MakineniSuryaTej/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-space-purple bg-space-navy/40 p-3 rounded-full transition-all"
@@ -238,7 +240,7 @@ function NavBar() {
           <Button
             className="btn-primary mt-4 bg-space-navy/50 hover:bg-space-purple/30 backdrop-blur-sm"
             onClick={() => {
-              window.open("/resume.pdf", "_blank");
+              window.open("Surya Tej Makineni - AI ML Engineer.pdf", "_blank");
               setMobileMenuOpen(false);
             }}
           >
